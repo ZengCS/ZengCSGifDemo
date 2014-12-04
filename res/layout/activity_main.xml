@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.zcs.demo.gif"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:background="#CCCCCC"
+        android:orientation="horizontal"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:paddingTop="1dip" >
+
+        <com.zcs.demo.gif.widget.GifView
+            android:id="@+id/gif_view"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android_custom:gif_name="aoda_cat_1" />
+
+        <com.zcs.demo.gif.widget.GifView
+            android:id="@+id/gif_view2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android_custom:gif_name="aoda_cat_2" />
+
+        <com.zcs.demo.gif.widget.GifView
+            android:id="@+id/gif_view3"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android_custom:gif_name="aoda_cat_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:background="#CCCCCC"
+        android:orientation="horizontal"
+        android:paddingBottom="1dip"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip" >
+
+        <com.zcs.demo.gif.widget.GifView
+            android:id="@+id/gif_view4"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android_custom:gif_name="aoda_cat_4" />
+
+        <com.zcs.demo.gif.widget.GifView
+            android:id="@+id/gif_view5"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android_custom:gif_name="aoda_cat_5" />
+
+        <com.zcs.demo.gif.widget.GifView
+            android:id="@+id/gif_view6"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android_custom:gif_name="aoda_cat_62" />
+    </LinearLayout>
+
+</LinearLayout>
