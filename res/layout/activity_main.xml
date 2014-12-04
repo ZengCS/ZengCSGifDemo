@@ -71,7 +71,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dip"
             android:layout_weight="1"
-            android_custom:gif_name="aoda_cat_62" />
+            android_custom:gif_name="error_gif_pic" />
     </LinearLayout>
 
 </LinearLayout>
